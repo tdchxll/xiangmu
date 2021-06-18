@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>首页_曾老师个人博客 </title>
+<title>学无止境_曾老师个人博客 - </title>
 <meta name="keywords" content="个人博客,曾老师个人博客,个人博客模板,曾老师" />
 <meta name="description" content="曾老师个人博客，10年+IT行业经验,曾就职于蓝盾股份、广发银行、XX知名学校教学。" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -50,39 +50,10 @@ window.onload = function ()
         <li><a href="gbook.jsp">留言</a></li>
       </ul>
     </nav>
-	
   </div>
 </header>
-<div class="picshow">
-  <ul>
-    <li><a href="/"><i><img src="images/b01.jpg"></i>
-      <div class="font">
-        <h3>个人博客《模板1》</h3>
-      </div>
-      </a></li>
-    <li><a href="/"><i><img src="images/b02.jpg"></i>
-      <div class="font">
-        <h3>个人博客《模板1》</h3>
-      </div>
-      </a></li>
-    <li><a href="/"><i><img src="images/b03.jpg"></i>
-      <div class="font">
-        <h3>个人博客《模板1》</h3>
-      </div>
-      </a></li>
-    <li><a href="/"><i><img src="images/b04.jpg"></i>
-      <div class="font">
-        <h3>个人博客《模板1》</h3>
-      </div>
-      </a></li>
-    <li><a href="/"><i><img src="images/b05.jpg"></i>
-      <div class="font">
-        <h3>个人博客《模板1》</h3>
-      </div>
-      </a></li>
-  </ul>
-</div>
 <article>
+  <h1 class="t_nav"><span>不要轻易放弃。学习成长的路上，我们长路漫漫，只因学无止境。 </span><a href="/" class="n1">网站首页</a><a href="/" class="n2">学无止境</a></h1>
   <div class="blogs">
     <div class="mt20"></div>
     <li> 
@@ -179,12 +150,6 @@ window.onload = function ()
     <div class="pagelist"><a title="Total record">&nbsp;<b>45</b> </a>&nbsp;&nbsp;&nbsp;<b>1</b>&nbsp;<a href="/download/index_2.jsp">2</a>&nbsp;<a href="/download/index_2.jsp">下一页</a>&nbsp;<a href="/download/index_2.jsp">尾页</a></div>
   </div>
   <div class="sidebar">
-    <div class="about">
-      <div class="avatar"> <img src="images/avatar.jpg" alt=""> </div>
-      <p class="abname">adam | 曾老师</p>
-      <p class="abposition">JAVA高级讲师</p>
-      <div class="abtext"> 曾老师个人博客，10年+IT行业经验,曾就职于蓝盾股份、广发银行、XX知名学校教学。 </div>
-    </div>
     <div class="search">
       <form action="/e/search/index.php" method="post" name="searchform" id="searchform">
         <input name="keyboard" id="keyboard" class="input_text" value="请输入关键字" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字'}" type="text">
@@ -194,13 +159,32 @@ window.onload = function ()
         <input name="Submit" class="input_submit" value="搜索" type="submit">
       </form>
     </div>
-    <div class="cloud">
-      <h2 class="hometitle">标签云</h2>
-      <ul>
-        <a href="/">陌上花开</a> <a href="/">校园生活</a> <a href="/">html5</a> <a href="/">SumSung</a> <a href="/">青春</a> <a href="/">温暖</a> <a href="/">阳光</a> <a href="/">三星</a><a href="/">索尼</a> <a href="/">华维荣耀</a> <a href="/">三星</a> <a href="/">索尼</a>
+    <div class="lmnav">
+      <h2 class="hometitle">栏目导航</h2>
+      <ul class="navbor">
+        <li><a href="#">文章分类</a></li>
+        <li><a href="list.jsp">数据库</a>
+          <ul>
+            <li><a href="list.jsp">mysql</a></li>
+            <li><a href="list.jsp">oracle</a></li>
+          </ul>
+        </li>
+        <li><a href="list.jsp">JAVA</a>
+          <ul>
+            <li><a href="list.jsp">OOP</a></li>
+            <li><a href="list.jsp">JSP</a></li>
+            <li><a href="list.jsp">Spring</a></li>
+          </ul>
+        </li>
+        <li><a href="list.jsp">前端</a>
+          <ul>
+            <li><a href="list.jsp">html5</a></li>
+            <li><a href="list.jsp">CSS3</a></li>
+          </ul>
+        </li>
       </ul>
     </div>
-	<div class="paihang">
+    <div class="paihang">
       <h2 class="hometitle">点击排行</h2>
       <ul>
         <li><b><a href="/download/div/2015-04-10/746.jsp" target="_blank">【活动作品】柠檬绿兔小白个人博客模板30...</a></b>
@@ -223,7 +207,12 @@ window.onload = function ()
         </li>
       </ul>
     </div>
- 
+    <div class="cloud">
+      <h2 class="hometitle">标签云</h2>
+      <ul>
+        <a href="/">陌上花开</a> <a href="/">校园生活</a> <a href="/">html5</a> <a href="/">SumSung</a> <a href="/">青春</a> <a href="/">温暖</a> <a href="/">阳光</a> <a href="/">三星</a><a href="/">索尼</a> <a href="/">华维荣耀</a> <a href="/">三星</a> <a href="/">索尼</a>
+      </ul>
+    </div>
     <div class="paihang">
       <h2 class="hometitle">站长推荐</h2>
       <ul>
@@ -247,23 +236,14 @@ window.onload = function ()
         </li>
       </ul>
     </div>
-	<div class="links">
-      <h2 class="hometitle">友情链接</h2>
-      <ul>
-        <li><a href="http://www.yangqq.com" title="曾老师个人博客">曾老师个人博客</a></li>
-        <li><a href="http://www.yangqq.com" title="曾老师个人博客">曾老师个人博客</a></li>
-        <li><a href="http://www.yangqq.com" title="曾老师个人博客">曾老师个人博客</a></li>
-      </ul>
-    </div>
     <div class="weixin">
-      <h2 class="hometitle">官方微信</h2>
+      <h2 class="hometitle">个人微信</h2>
       <ul>
         <img src="images/wx.jpg">
       </ul>
     </div>
   </div>
 </article>
-<div class="blank"></div>
 <footer>
   <p>Design by <a href="/">曾老师个人博客</a> <a href="/">蜀ICP备11002373号-1</a></p>
 </footer>
