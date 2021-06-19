@@ -1,4 +1,4 @@
-package po;
+package com.javacto.po;
 /**
  * 
  * Title:BlogArticleCategory

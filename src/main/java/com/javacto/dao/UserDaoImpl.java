@@ -1,8 +1,8 @@
-package dao;
+package com.javacto.dao;
 
 import com.javacto.utils.BaseDao;
 import com.javacto.utils.PageInfo;
-import po.User;
+import com.javacto.po.User;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -64,6 +64,7 @@ public class UserDaoImpl implements UserDao{
                 user1.setBuCreateUser(rs.getDate(10));
                 user1.setBuUpdateTime(rs.getDate(11));
                 user1.setBuUpdateUser(rs.getString(12));
+                list.add(user1);
             }
 
         }catch (Exception e){
